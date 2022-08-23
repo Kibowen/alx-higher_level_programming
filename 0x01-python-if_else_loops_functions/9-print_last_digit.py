@@ -5,5 +5,5 @@ def print_last_digit(number):
 
     num_last = string[-1:]
 
-    print(num_last, end ="")
+    print(num_last, end="")
     return num_last
