@@ -1,14 +1,18 @@
 #!/usr/bin/python3
-# 1-square.py
+"""
+No module imported
+"""
 
-"""Define a class Square."""
 
 class Square:
-    """Represent a square."""
-
+    """
+    Defines a square by private instance size,
+    instantiation with size.
+    """
     def __init__(self, size):
-        """Initialize a new Square.
-        Args:
-            size (int): The size of the new square.
+        """
+        size : no type/value verification
+        ----------------------------
+        Private instance attribute size
         """
         self.__size = size
