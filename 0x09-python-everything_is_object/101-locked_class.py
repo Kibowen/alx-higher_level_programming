@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#Class with no object attribute
 LockedClass = __import__('101-locked_class').LockedClass
 
 lc = LockedClass()
