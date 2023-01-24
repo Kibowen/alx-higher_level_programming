@@ -1,10 +1,12 @@
 #!/usr/bin/python3
-#Class with no object attribute
-LockedClass = __import__('101-locked_class').LockedClass
+# 101-locked_class.py
+"""Defines a locked class."""
 
-lc = LockedClass()
-lc.first_name = "John"
-try:
-    lc.last_name = "Snow"
-except Exception as e:
-    print("[{}] {}".format(e.__class__.__name__, e))
+
+class LockedClass:
+    """
+    Prevent the user from instantiating new LockedClass attributes
+    for anything but attributes called 'first_name'.
+    """
+
+    __slots__ = ["first_name"]

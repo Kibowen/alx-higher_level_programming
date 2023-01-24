@@ -1,14 +1,4 @@
 #!/usr/bin/python3
-#program that returns a copy of a list.
-copy_list = __import__('19-copy_list').copy_list
+def copy_list(l):
+    return l[:]
 
-my_list = [1, 2, 3]
-print(my_list)
-
-new_list = copy_list(my_list)
-
-print(my_list)
-print(new_list)
-
-print(new_list == my_list)
-print(new_list is my_list)
