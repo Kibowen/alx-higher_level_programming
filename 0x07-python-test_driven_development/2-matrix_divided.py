@@ -3,6 +3,7 @@
 # Brennan D Baraban <375@holbertonschool.com>
 """Defines a matrix division function."""
 
+
 def matrix_divided(matrix, div):
     """Divide all elements of a matrix.
     Args:
